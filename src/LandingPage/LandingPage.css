@@ -1,0 +1,29 @@
+.article-list {
+  flex-direction: column;
+  align-items: center;
+}
+
+.article {
+  display: flex;
+  padding: 16px;
+  margin: 16px;
+  text-align: center;
+}
+
+.author {
+  position: relative;
+  top: 100px;
+  left: 10px;
+}
+.like {
+  position: relative;
+  top: 85px;
+  left: 10px;
+  font-size: 40px;
+}
+.like span {
+  position: relative;
+  bottom: 8px;
+  left: 10px;
+  font-size: 15px;
+}
